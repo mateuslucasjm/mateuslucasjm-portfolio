@@ -3,7 +3,9 @@ import type { PortfolioData } from "./types";
 import appNatura from "../assets/app-natura.png";
 import clubPro from "../assets/club-pro.png";
 import eu from "../assets/eu.png";
+import itau from "../assets/itau.png";
 import orcamento from "../assets/orcamento-pessoal.png";
+import partyTime from "../assets/party-time.png";
 import pokedex from "../assets/pokedex.png";
 import proVida from "../assets/pro-vida.png";
 import toughts from "../assets/toughts.png";
@@ -139,6 +141,15 @@ export const portfolioData: PortfolioData = {
       image: proVida,
     },
     {
+      title: "Itaú",
+      description:
+        "Clone de landing page do Itaú utilizando Next.js e Tailwind CSS.",
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "HTML", "CSS"],
+      liveUrl: "https://itau-phi.vercel.app/",
+      githubUrl: "https://github.com/mateuslucasjm/itau",
+      image: itau,
+    },
+    {
       title: "Toughts",
       description:
         "Toughts é um sistema simples para criar, editar e excluir pensamentos, ideal para registrar ideias e praticar desenvolvimento.",
@@ -146,6 +157,15 @@ export const portfolioData: PortfolioData = {
       liveUrl: "https://toughts-blue.vercel.app/",
       githubUrl: "https://github.com/mateuslucasjm/toughts",
       image: toughts,
+    },
+    {
+      title: "Party Time",
+      description:
+        "Sistema de gerenciamento de eventos (festas) com backend em API REST. Permite criar, editar e excluir eventos, além de visualizar detalhes.",
+      technologies: ["React", "Express", "Node.js", "MongoDB"],
+      liveUrl: "https://partytime-front.vercel.app/",
+      githubUrl: "https://github.com/mateuslucasjm/partytime",
+      image: partyTime,
     },
     {
       title: "Pokédex",
