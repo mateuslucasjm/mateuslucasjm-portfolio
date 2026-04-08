@@ -111,7 +111,7 @@ export const portfolioData: PortfolioData = {
         "Docker",
       ],
       githubUrl: "https://github.com/GoDo-Devs/priceasy",
-      image: "src/assets/club-pro.png",
+      image: "src/public/club-pro.png",
     },
     {
       title: "App Natura",
@@ -120,7 +120,7 @@ export const portfolioData: PortfolioData = {
       technologies: ["React", "TypeScript", "Node.js", "MySQL", "NestJS"],
       liveUrl: "https://natura-app-front.vercel.app/",
       githubUrl: "https://github.com/mateuslucasjm/natura-app",
-      image: "src/assets/app-natura.png",
+      image: "src/public/app-natura.png",
     },
     {
       title: "Pró-Vida Cirúrgica",
@@ -128,7 +128,7 @@ export const portfolioData: PortfolioData = {
         "Site institucional para fortalecimento da presença digital da empresa.",
       technologies: ["React", "JavaScript", "Bootstrap", "HTML", "CSS"],
       liveUrl: "https://pro-vida-cirurgica.vercel.app/",
-      image: "src/assets/pro-vida.png",
+      image: "src/public/pro-vida.png",
     },
     {
       title: "Toughts",
@@ -137,7 +137,7 @@ export const portfolioData: PortfolioData = {
       technologies: ["React", "Express", "Node.js", "Firebase"],
       liveUrl: "https://toughts-blue.vercel.app/",
       githubUrl: "https://github.com/mateuslucasjm/toughts",
-      image: "src/assets/toughts.png",
+      image: "src/public/toughts.png",
     },
     {
       title: "Pokédex",
@@ -146,7 +146,7 @@ export const portfolioData: PortfolioData = {
       technologies: ["React", "Tailwind CSS", "HTML", "CSS"],
       githubUrl: "https://github.com/mateuslucasjm/product-showcase",
       liveUrl: "https://product-showcase-kappa-lake.vercel.app/",
-      image: "src/assets/pokedex.png",
+      image: "src/public/pokedex.png",
     },
     {
       title: "App Orçamento Pessoal",
@@ -155,7 +155,7 @@ export const portfolioData: PortfolioData = {
       technologies: ["JavaScript", "Bootstrap", "HTML", "CSS"],
       githubUrl: "https://github.com/mateuslucasjm/app-orcamento-pessoal",
       liveUrl: "https://app-orcamento-pessoal-gamma.vercel.app/",
-      image: "src/assets/orcamento-pessoal.png",
+      image: "src/public/orcamento-pessoal.png",
     },
   ],
 
