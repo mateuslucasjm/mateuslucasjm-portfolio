@@ -1,12 +1,20 @@
 import type { PortfolioData } from "./types";
 
+import appNatura from "../assets/app-natura.png";
+import clubPro from "../assets/club-pro.png";
+import eu from "../assets/eu.png";
+import orcamento from "../assets/orcamento-pessoal.png";
+import pokedex from "../assets/pokedex.png";
+import proVida from "../assets/pro-vida.png";
+import toughts from "../assets/toughts.png";
+
 export const portfolioData: PortfolioData = {
   about: {
     name: "Mateus Lucas",
     title: "Desenvolvedor Web",
     description:
       "Sou desenvolvedor com experiência em construção de aplicações web modernas. Apaixonado por criar soluções elegantes e eficientes.",
-    avatar: "src\\assets\\eu.png",
+    avatar: eu,
   },
 
   experience: [
@@ -111,7 +119,7 @@ export const portfolioData: PortfolioData = {
         "Docker",
       ],
       githubUrl: "https://github.com/GoDo-Devs/priceasy",
-      image: "src/public/club-pro.png",
+      image: clubPro,
     },
     {
       title: "App Natura",
@@ -120,7 +128,7 @@ export const portfolioData: PortfolioData = {
       technologies: ["React", "TypeScript", "Node.js", "MySQL", "NestJS"],
       liveUrl: "https://natura-app-front.vercel.app/",
       githubUrl: "https://github.com/mateuslucasjm/natura-app",
-      image: "src/public/app-natura.png",
+      image: appNatura,
     },
     {
       title: "Pró-Vida Cirúrgica",
@@ -128,7 +136,7 @@ export const portfolioData: PortfolioData = {
         "Site institucional para fortalecimento da presença digital da empresa.",
       technologies: ["React", "JavaScript", "Bootstrap", "HTML", "CSS"],
       liveUrl: "https://pro-vida-cirurgica.vercel.app/",
-      image: "src/public/pro-vida.png",
+      image: proVida,
     },
     {
       title: "Toughts",
@@ -137,7 +145,7 @@ export const portfolioData: PortfolioData = {
       technologies: ["React", "Express", "Node.js", "Firebase"],
       liveUrl: "https://toughts-blue.vercel.app/",
       githubUrl: "https://github.com/mateuslucasjm/toughts",
-      image: "src/public/toughts.png",
+      image: toughts,
     },
     {
       title: "Pokédex",
@@ -146,7 +154,7 @@ export const portfolioData: PortfolioData = {
       technologies: ["React", "Tailwind CSS", "HTML", "CSS"],
       githubUrl: "https://github.com/mateuslucasjm/product-showcase",
       liveUrl: "https://product-showcase-kappa-lake.vercel.app/",
-      image: "src/public/pokedex.png",
+      image: pokedex,
     },
     {
       title: "App Orçamento Pessoal",
@@ -155,7 +163,7 @@ export const portfolioData: PortfolioData = {
       technologies: ["JavaScript", "Bootstrap", "HTML", "CSS"],
       githubUrl: "https://github.com/mateuslucasjm/app-orcamento-pessoal",
       liveUrl: "https://app-orcamento-pessoal-gamma.vercel.app/",
-      image: "src/public/orcamento-pessoal.png",
+      image: orcamento,
     },
   ],
 

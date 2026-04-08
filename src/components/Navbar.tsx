@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import avatar from '../public/eu.png';
+import avatar from '../assets/eu.png';
 import './Navbar.css';
 
 const navItems = ['Projetos', 'Experiência', 'Habilidades', 'Sobre', 'Contato'];
