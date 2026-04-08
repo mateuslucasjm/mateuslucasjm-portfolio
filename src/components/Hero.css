@@ -1,0 +1,65 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: calc(var(--nav-height) + 2rem) 2rem 4rem;
+  background: radial-gradient(ellipse at 50% 0%, rgba(99, 102, 241, 0.15) 0%, transparent 60%);
+}
+
+.hero-content {
+  max-width: 700px;
+  text-align: center;
+}
+
+.hero-greeting {
+  color: var(--accent);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.hero-name {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.hero-title {
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+  color: var(--accent);
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.hero-description {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  max-width: 550px;
+  margin: 0 auto 2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2.5rem;
+}
+
+.hero-social {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.hero-social a {
+  color: var(--text-secondary);
+  transition: color 0.2s, transform 0.2s;
+}
+
+.hero-social a:hover {
+  color: var(--accent);
+  transform: translateY(-2px);
+}
