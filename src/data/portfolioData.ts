@@ -133,6 +133,15 @@ export const portfolioData: PortfolioData = {
       image: appNatura,
     },
     {
+      title: "Toughts",
+      description:
+        "Toughts é um sistema simples para criar, editar e excluir pensamentos, ideal para registrar ideias e praticar desenvolvimento.",
+      technologies: ["React", "Express", "Node.js", "Firebase"],
+      liveUrl: "https://toughts-blue.vercel.app/",
+      githubUrl: "https://github.com/mateuslucasjm/toughts",
+      image: toughts,
+    },
+    {
       title: "Pró-Vida Cirúrgica",
       description:
         "Site institucional para fortalecimento da presença digital da empresa.",
@@ -148,15 +157,6 @@ export const portfolioData: PortfolioData = {
       liveUrl: "https://itau-phi.vercel.app/",
       githubUrl: "https://github.com/mateuslucasjm/itau",
       image: itau,
-    },
-    {
-      title: "Toughts",
-      description:
-        "Toughts é um sistema simples para criar, editar e excluir pensamentos, ideal para registrar ideias e praticar desenvolvimento.",
-      technologies: ["React", "Express", "Node.js", "Firebase"],
-      liveUrl: "https://toughts-blue.vercel.app/",
-      githubUrl: "https://github.com/mateuslucasjm/toughts",
-      image: toughts,
     },
     {
       title: "Party Time",
